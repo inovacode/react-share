@@ -18,7 +18,6 @@
     "run-demos": "webpack-dev-server --hot --config webpack.demo.config.js --progress",
     "lint": "eslint --ext .jsx --ext .js ./src ./demos",
     "prepublish": "npm run build",
-    "postinstall": "npm run build-lib",
     "start": "npm run run-demos"
   },
   "keywords": [
