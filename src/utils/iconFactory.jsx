@@ -16,7 +16,7 @@ export default function iconFactory(network, iconConfig) {
       height: size,
     };
 
-    const classes = `w-social-icon w-social-icon--${network} ${className}`;
+    const classes = `w-sm-icn w-sm-icn--${network} ${className}`;
 
     return (
       <div style={baseStyle}>
