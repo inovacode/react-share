@@ -163,10 +163,10 @@ class ShareButton extends PureComponent {
     } = this.props;
 
     const classes = cx(
-      'SocialMediaShareButton',
-      `SocialMediaShareButton--${network}`,
+      'sm-share-btn',
+      `sm-share-btn--${network}`,
       {
-        'SocialMediaShareButton--disabled': !!disabled,
+        'sm-share-btn--disabled': !!disabled,
         disabled: !!disabled,
       },
       className,
